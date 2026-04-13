@@ -66,3 +66,12 @@ canvas {
   left: 20%;
   transform: translate(-50%, -50%);
 }
+
+.flowerborders {
+  width: 100px;
+  height: 300px;
+  position: absolute;
+  top: 80%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+}
