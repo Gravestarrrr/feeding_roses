@@ -4,6 +4,9 @@ function setup() {
 
 function draw() {
   background('red');
+
+  rect(500, 500, 400, 200);
+  fill('black');
   
   let flowerX = 200;
   let flowerY = 200;
