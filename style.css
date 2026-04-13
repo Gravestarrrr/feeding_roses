@@ -6,3 +6,18 @@ html, body {
 canvas {
   display: block;
 }
+
+.container {
+  max-width: 1200px; /* Limits width on desktop */
+  width: 100%;       /* Allows shrinking on mobile */
+  margin: 0 auto;    /* Centers the container */
+}
+
+.backgroundcontainer {
+  width: 1200px;
+  height: 800px;
+  background-image: url('backgroundtop_.jpg');
+  background-size: cover;
+  background-position: center;
+
+}
