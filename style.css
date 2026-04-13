@@ -24,6 +24,5 @@ canvas {
 .mainframe {
   width: 1200px;
   height: 1000px;
-  stroke: black;
-  stroke-width: 2;
+  border: 6px solid black;
 }
