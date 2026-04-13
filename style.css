@@ -302,7 +302,7 @@ canvas {
   width: 100%;
   height: 1000px;
   background-image: url('/gifs/broken_woah.gif');
-  background-size: contain;
+  background-size: absolute;
   background-position: center;
   display: flex;
   flex-direction: column; /* Forces children to stack vertically */
@@ -389,15 +389,6 @@ canvas {
   top: 138%;
   left: 12%;
   transform: translate(-50%, -50%) scaleX(-1);
-}
-
-.take {
-  width: 800px;
-  height: 200px;
-  position: absolute;
-  top: 135%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 .poetry {
