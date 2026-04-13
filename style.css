@@ -279,3 +279,21 @@ canvas {
   left: 32%;
   transform: translate(-50%, -50%);
 }
+
+.nefflogo {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.spit{ 
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 68%;
+  left: 66%;
+  transform: translate(-50%, -50%);
+}
