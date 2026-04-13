@@ -16,7 +16,7 @@ canvas {
 .backgroundcontainer {
   width: 100%;
   height: 1000px;
-  background-image: url('backgroundtop_.jpg');
+  background-image: url('/jpgs/backgroundtop_.jpg');
   background-size: contain;
   background-position: center;
   /* border: 6px solid black; */
@@ -296,4 +296,126 @@ canvas {
   top: 68%;
   left: 66%;
   transform: translate(-50%, -50%);
+}
+
+.world2{
+  width: 100%;
+  height: 1000px;
+  background-image: url('/gifs/broken_woah.gif');
+  background-size: contain;
+  background-position: center;
+  display: flex;
+  flex-direction: column; /* Forces children to stack vertically */
+  /* border: 6px solid black; */
+}
+
+
+.littleangel{
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 140%;
+  left: 13%;
+  transform: translate(-50%, -50%);
+}
+
+.cloud {
+  width: 1000px;
+  height: 200px;
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.cloud2 {
+  width: 1000px;
+  height: 200px;
+  position: absolute;
+  top: 120%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+}
+
+.cloud3 {
+  width: 1000px;
+  height: 200px;
+  position: absolute;
+  top: 120%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+}
+
+.cloud4 {
+  width: 1000px;
+  height: 200px;
+  position: absolute;
+  top: 120%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+}
+
+.cloud5 {
+  width: 1000px;
+  height: 200px;
+  position: absolute;
+  top: 120%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+}
+
+.cloud6 {
+  width: 1000px;
+  height: 200px;
+  position: absolute;
+  top: 120%;
+  left: 85%;
+  transform: translate(-50%, -50%);
+}
+
+.darkangel {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 138%;
+  left: 87%;
+  transform: translate(-50%, -50%);
+}
+
+.darkangel2 {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 138%;
+  left: 12%;
+  transform: translate(-50%, -50%) scaleX(-1);
+}
+
+.take {
+  width: 800px;
+  height: 200px;
+  position: absolute;
+  top: 135%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.poetry {
+  width: 600px;
+  height: 200px;
+  position: absolute;
+  top: 155%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.broken1 {
+  width: 400px;
+  height: 400px;
+  position: absolute; 
+  top: 180%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
 }
