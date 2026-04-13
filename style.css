@@ -15,9 +15,8 @@ canvas {
 
 .backgroundcontainer {
   width: 1200px;
-  height: 800px;
+  height: 1000px;
   background-image: url('backgroundtop_.jpg');
   background-size: cover;
   background-position: center;
-
 }
