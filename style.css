@@ -16,7 +16,7 @@ canvas {
 .backgroundcontainer {
   width: 100%;
   height: 1000px;
-  background-image: url('/jpgs/backgroundtop_.jpg');
+  background-image: url('backgroundtop_.jpg');
   background-size: contain;
   background-position: center;
   /* border: 6px solid black; */
@@ -301,7 +301,7 @@ canvas {
 .world2{
   width: 100%;
   height: 1000px;
-  background-image: url('/gifs/broken_woah.gif');
+  background-image: url('broken_woah.gif');
   background-size: absolute;
   background-position: center;
   display: flex;
