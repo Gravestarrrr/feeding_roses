@@ -10,7 +10,8 @@ function setup() {
   describe(
     `Dark rgb(0,0,0) canvas that reflects the lines drawn within it in ${symmetry} sections.`
   );
-  createCanvas(windowWidth, 800);
+  let myCanvas2 = createCanvas(windowWidth, windowHeight);
+  myCanvas2.parent('kaleidoscope');
   angleMode(DEGREES);
   background(255, 63, 0);
 }
