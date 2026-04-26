@@ -13,9 +13,12 @@
   </head>
 
   <body>
+    <!-- This is the audio that autoplays upon arriving -->
     <audio id="myAudio" autoplay loop>
       <source src="thestrokes_.mp3" type="audio/mpeg">
     </audio>
+
+    <!-- This is the first welcome screen with a bunch of overwhelming visuals from Gif Cities & some original assets -->
     <div class="backgroundcontainer">
       <p class="what">what are you running from?</p>
       <img class="scottpilgrim" src="gifs/scottpilgrim.gif" alt="gif2">
@@ -49,6 +52,7 @@
       <img class="spit" src="pngs/spitfire.png" alt="fire">
       </div>
 
+    <!-- This is the poetry world that I built using gifs from GifCities with my own poem assets -->
       <div class="world2">  
         <img class="darkangel" src="gifs/angel2.gif" alt="darkangel">
         <img class="darkangel2" src="gifs/angel2.gif" alt="darkangel">
@@ -62,10 +66,14 @@
         <img class="broken1" src="gifs/broken_yes.gif" alt="broken">
         <img class="broken2" src="gifs/broken_woah.gif" alt="broken">
       </div>
-       <script>
+
+      <!-- This is picking up the set audio upon loading and placed at the end similar to the pj5 script -->
+      <script>
       var audio = document.getElementById("myAudio");
       audio.volume = 0.2; 
-    </script>
+      </script>
+    
+    <!-- This links the kaleidoscope animation I made in pj5  -->
     <script src="sketch.js"></script>
   </body>
 </html>
