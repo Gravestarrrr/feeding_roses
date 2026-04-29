@@ -13,7 +13,7 @@ canvas {
 }
 
 a:hover{
-  color:aqua;
+  color:palevioletred;
   background-color: black;
 }
 
@@ -26,8 +26,10 @@ a {
   position: absolute;
   top: 50%;
   left: 80%;
-  font-family: '8bitOperatorPlus8-Regular';
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
+  opacity: 0; /* Makes the link invisible by default */
+  transition: opacity 10s ease; /* Adds a smooth fade-in effect */
 }
 
 p:hover{
@@ -41,4 +43,14 @@ p:hover{
   left: 45%;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 10px;
+}
+
+.tryingarea {
+  width: 100px;
+  height: 100px;
+}
+
+/* When the area is hovered, show the link */
+.tryingarea:hover .linkson {
+  opacity: 1;
 }
