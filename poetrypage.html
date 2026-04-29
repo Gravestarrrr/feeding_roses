@@ -10,12 +10,16 @@
 
     <link rel="icon" type="image/x-icon" href="pngs/poetryfavi.png">
 
+    
+
     <script src="libraries/p5.min.js"></script>
     <script src="libraries/p5.sound.min.js"></script>
   </head>
 
   <body>
-
+<audio id="lost" autoplay loop>
+      <source src="inthesea.mp3" type="audio/mpeg">
+    </audio>
     <!-- This is the poetry world that I built using gifs from GifCities with my own poem assets -->
       <div class="world2">  
         <img class="poem1" src="gifs/poem1.gif" alt="poem1">
@@ -37,7 +41,14 @@
         <img class="castle" src="gifs/castlebackground.gif" alt="castle">
         <img class="dragon" src="gifs/dragonlair.gif" alt="dragon">
         <h1 class="topline"> that is a sample of my poetry</h1>
-  
       </div>
+      <div id="nextbox">
+
+      </div>
+       <script>
+      var audio = document.getElementById("lost");
+      audio.volume = 0.2; 
+      </script>
   </body>
+  <script src="poetry.js"></script>
 </html>
