@@ -1,0 +1,13 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 800px;
+  background-color: rgb(242, 0, 0);
+}
+
+canvas {
+  display: block;
+}
