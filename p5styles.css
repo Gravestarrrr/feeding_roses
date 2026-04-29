@@ -196,3 +196,23 @@ p:hover{
   left: 0%;
   z-index: 1;
 }
+
+.dragon {
+  width: 500px;
+  height: auto;
+  position: absolute;
+  top: 150%;
+  right: 35%;
+  z-index: 2;
+}
+
+.topline {
+  position: absolute;
+  top: 200%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: white;
+  z-index:2;
+}
