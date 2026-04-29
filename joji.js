@@ -11,12 +11,12 @@ let joji; //joji logo
 
 //Loading All My Assets / Global variables
 function preload() {
-  myFont = loadFont("8bitOperatorPlus8-Regular.ttf");
-  mySound = loadSound("PIXELATED KISSES.mp3");
-  cursorImg = loadImage("satellite.png");
-  bite1 = loadImage("firstredbite.jpg");
-  bite2 = loadImage("secondredbite.jpg");
-  joji = loadImage("mygoat.jpg");
+  myFont = loadFont("Jojiassets/8bitOperatorPlus8-Regular.ttf");
+  mySound = loadSound("Jojiassets/PIXELATED KISSES.mp3");
+  cursorImg = loadImage("Jojiassets/satellite.png");
+  bite1 = loadImage("Jojiassets/firstredbite.jpg");
+  bite2 = loadImage("Jojiassets/secondredbite.jpg");
+  joji = loadImage("Jojiassets/mygoat.jpg");
 }
 
 //Setting all the local settings
