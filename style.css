@@ -302,7 +302,7 @@ canvas {
   width: 100%;
   height: 1000px;
   background-image: url('gifs/broken_woah.gif');
-  background-size: absolute;
+  background-size: relative;
   background-position: center;
 
 }
@@ -321,7 +321,7 @@ canvas {
   width: 1000px;
   height: 200px;
   position: absolute;
-  top: 120%;
+  top: 5%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -330,7 +330,7 @@ canvas {
   width: 1000px;
   height: 200px;
   position: absolute;
-  top: 120%;
+  top: 5%;
   left: 15%;
   transform: translate(-50%, -50%);
 }
@@ -339,7 +339,7 @@ canvas {
   width: 1000px;
   height: 200px;
   position: absolute;
-  top: 120%;
+  top: 5%;
   left: 35%;
   transform: translate(-50%, -50%);
 }
@@ -348,7 +348,7 @@ canvas {
   width: 1000px;
   height: 200px;
   position: absolute;
-  top: 120%;
+  top: 5%;
   left: 65%;
   transform: translate(-50%, -50%);
 }
@@ -357,7 +357,7 @@ canvas {
   width: 1000px;
   height: 200px;
   position: absolute;
-  top: 120%;
+  top: 5%;
   left: 15%;
   transform: translate(-50%, -50%);
 }
@@ -366,7 +366,7 @@ canvas {
   width: 1000px;
   height: 200px;
   position: absolute;
-  top: 120%;
+  top: 5%;
   left: 85%;
   transform: translate(-50%, -50%);
 }
@@ -375,7 +375,7 @@ canvas {
   width: 300px;
   height: 300px;
   position: absolute;
-  top: 138%;
+  top: 25%;
   left: 87%;
   transform: translate(-50%, -50%);
 }
@@ -384,7 +384,7 @@ canvas {
   width: 300px;
   height: 300px;
   position: absolute;
-  top: 138%;
+  top: 25%;
   left: 12%;
   transform: translate(-50%, -50%) scaleX(-1);
 }
@@ -394,7 +394,7 @@ canvas {
   width: 600px;
   height: 200px;
   position: absolute;
-  top: 155%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
@@ -404,7 +404,7 @@ canvas {
   width: 400px;
   height: 400px;
   position: absolute; 
-  top: 180%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 1;
