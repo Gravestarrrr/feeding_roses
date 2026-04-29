@@ -11,3 +11,34 @@ body {
 canvas {
   display: block;
 }
+
+a:hover{
+  color:aqua;
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.linkson {
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  font-family: '8bitOperatorPlus8-Regular';
+  font-size: 20px;
+}
+
+p:hover{
+  color: yellow;
+}
+
+.idk {
+  color: black;
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+}

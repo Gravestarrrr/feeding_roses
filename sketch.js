@@ -77,7 +77,6 @@ function draw() {
     textSize(200);
   }
 
-
     // And, if the mouse is pressed while in the canvas...
     if (mouseIsPressed === true) {
       // For every reflective section the canvas is split into, draw the cursor's

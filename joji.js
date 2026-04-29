@@ -45,6 +45,8 @@ function mousePressed() {
 }
 
 function draw() {
+
+
   fill(5, 80, 100);
   textSize(48);
   stroke(0);
@@ -117,6 +119,8 @@ function draw() {
   fill(255);
   image(cursorImg, mouseX, mouseY); //Satellite Cursor
 }
+
+
 
 function maze() {
   stroke(450);
